@@ -1,3 +1,3 @@
 language: objective-c
 xcode_project: NitroMath.xcodeproj
-xcode_scheme: NitroMathTests
+xcode_scheme: NitroMath

@@ -3,6 +3,7 @@ NitroMath
 
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/NitroMath/badge.png)](http://cocoapods.org/?q=NitroMath)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/NitroMath/badge.png)](http://cocoadocs.org/docsets/NitroMath)
+[![TravisCI](https://travis-ci.org/danielalves/NitroMath.svg?branch=master)](https://travis-ci.org/danielalves/NitroMath)
 
 **NitroMath** is a set of mathematical utilities for C, C++ and ObjC which aims to boost coding performance.
 

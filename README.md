@@ -1,4 +1,4 @@
-nitro-math
+NitroMath
 ==========
 
 **NitroMath** is a set of mathematical utilities for C, C++ and ObjC which aims to boost coding performance.

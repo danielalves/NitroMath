@@ -5,7 +5,7 @@ NitroMath
 [![Platform](http://cocoapod-badges.herokuapp.com/p/NitroMath/badge.png)](http://cocoadocs.org/docsets/NitroMath)
 [![TravisCI](https://travis-ci.org/danielalves/NitroMath.svg?branch=master)](https://travis-ci.org/danielalves/NitroMath)
 
-**NitroMath** is a set of mathematical utilities for C, C++ and ObjC which aims to boost coding performance.
+**NitroMath** is a set of mathematical utilities for C, C++, ObjC and Swift which aims to boost coding performance.
 
 Usually, there are some mathematical functions that people keep redeclaring and reimplementing on many projects just because they are simple to write (how many times did you code lerp?). Well, this could become a maintenance nightmare: there could be name clashes, different implementations for the same function, different names for functions doing the same thing, improvements which are not used, extra bytes on your executable, more unit tests written and etc.
 

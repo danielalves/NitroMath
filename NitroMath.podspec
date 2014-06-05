@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "Daniel L. Alves"
   s.source       = { :git => "https://github.com/danielalves/NitroMath.git", :tag => s.version.to_s }
-  s.source_files  = "NitroMath"
+  s.source_files  = "NitroMath/objc"
   s.requires_arc = false
 end

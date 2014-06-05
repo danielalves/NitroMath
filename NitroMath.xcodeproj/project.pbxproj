@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		128504221933AEA7002BEC91 /* NTRMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 128504211933AEA7002BEC91 /* NTRMath.h */; };
+		1222DA601940A7B600A35834 /* NTRMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1222DA5D1940A7B600A35834 /* NTRMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1285042A1933AFE4002BEC91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128504291933AFE4002BEC91 /* XCTest.framework */; };
 		128504321933AFE4002BEC91 /* NitroMathTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 128504311933AFE4002BEC91 /* NitroMathTests.mm */; };
 /* End PBXBuildFile section */
@@ -23,8 +23,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1222DA5D1940A7B600A35834 /* NTRMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRMath.h; sourceTree = "<group>"; };
+		1222DA5F1940A7B600A35834 /* NTRMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NTRMath.swift; sourceTree = "<group>"; };
 		128504191933AE70002BEC91 /* libNitroMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNitroMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		128504211933AEA7002BEC91 /* NTRMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRMath.h; sourceTree = "<group>"; };
 		128504271933AFE4002BEC91 /* NitroMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128504291933AFE4002BEC91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1285042D1933AFE4002BEC91 /* NitroMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NitroMathTests-Info.plist"; sourceTree = "<group>"; };
@@ -50,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1222DA5C1940A7B600A35834 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				1222DA5D1940A7B600A35834 /* NTRMath.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		1222DA5E1940A7B600A35834 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				1222DA5F1940A7B600A35834 /* NTRMath.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
 		128504101933AE70002BEC91 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +89,8 @@
 		128504201933AEA7002BEC91 /* NitroMath */ = {
 			isa = PBXGroup;
 			children = (
-				128504211933AEA7002BEC91 /* NTRMath.h */,
+				1222DA5C1940A7B600A35834 /* objc */,
+				1222DA5E1940A7B600A35834 /* swift */,
 			);
 			path = NitroMath;
 			sourceTree = "<group>";
@@ -109,7 +127,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128504221933AEA7002BEC91 /* NTRMath.h in Headers */,
+				1222DA601940A7B600A35834 /* NTRMath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
